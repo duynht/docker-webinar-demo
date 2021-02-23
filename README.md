@@ -1,3 +1,5 @@
+[![duynht](https://circleci.com/gh/duynht/docker-webinar-demo.svg?style=svg)](https://circleci.com/gh/duynht/docker-webinar-demo)
+
 ### Background
 
 This is the demo app that accompanied the CircleCI / Docker webinar on 08/18/2020. 

@@ -31,8 +31,8 @@ jobs:
           name: Build Docker image
           command: |
             docker build -t your-image:$TAG .
-            echo $DOCKER_PWD | docker login -u $DOCKER_LOGIN --password-stdin
-            docker push duynht/$IMAGE_NAME:$TAG
+            # echo $DOCKER_PWD | docker login -u $DOCKER_LOGIN --password-stdin
+            # docker push duynht/$IMAGE_NAME:$TAG
 
 orbs:
   node: circleci/node@4.0.0
